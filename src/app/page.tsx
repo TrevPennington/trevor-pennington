@@ -23,7 +23,7 @@ export default function Home() {
             <a href="https://www.thepennington.co/" target="_blank">
               <p className="underline">The Pennington Co</p>
               <p className="text-xs pt-1">
-                portfolio wedding photography website
+                Portfolio wedding photography website
               </p>
             </a>
 
