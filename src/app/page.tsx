@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="pt-[100px]">
-      <div className="max-w-1/2 m-auto flex flex-col gap-[64px]">
+    <div className="md:py-[100px] py-[50px]">
+      <div className="md:max-w-1/2 max-w-3/4 m-auto flex flex-col gap-[64px]">
         <div>
           <h1 className="font-bold italic">Trevor Pennington</h1>
           <div className="pt-[20px]">
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
 
         {/* projects */}
-        <div>
+        <div className="self-start">
           <h1 className="font-bold italic">Current projects</h1>
           <div className="pt-[20px] flex-col flex gap-4">
             <a href="https://www.thepennington.co/" target="_blank">
@@ -27,7 +27,10 @@ export default function Home() {
               </p>
             </a>
 
-            <a href="https://github.com/TrevPennington" target="_blank">
+            <a
+              href="https://apps.apple.com/us/app/devdex/id6478421422"
+              target="_blank"
+            >
               <p className="underline">devdex</p>
               <p className="text-xs pt-1">
                 iOS app for staying sharp on programming syntax
