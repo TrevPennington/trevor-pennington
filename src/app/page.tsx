@@ -18,7 +18,7 @@ export default function Home() {
 
         {/* projects */}
         <div className="self-start">
-          <h1 className="font-bold italic">Current projects</h1>
+          <h1 className="font-bold italic">Personal projects</h1>
           <div className="pt-[20px] flex-col flex gap-4">
             <a href="https://www.thepennington.co/" target="_blank">
               <p className="underline">The Pennington Co</p>
