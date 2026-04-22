@@ -11,7 +11,7 @@ export default function Home() {
                 few.io
               </a>
             </p>
-            <p className="font-light">TS / React Native / Swift</p>
+            <p className="font-light">Expo / Laravel</p>
             <p className="font-light">Raleigh, NC</p>
           </div>
         </div>
@@ -28,12 +28,12 @@ export default function Home() {
             </a>
 
             <a
-              href="https://apps.apple.com/us/app/devdex/id6478421422"
+              href="https://apps.apple.com/us/app/birdwise/id6760843072"
               target="_blank"
             >
-              <p className="underline">devdex</p>
+              <p className="underline">Birdwise</p>
               <p className="text-xs pt-1">
-                iOS app for staying sharp on programming syntax
+                iOS app to train your birding skills
               </p>
             </a>
           </div>
